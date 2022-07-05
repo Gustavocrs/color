@@ -4,7 +4,7 @@ export const Input = styled.input`
   width: 150px;
   height: 50px;
   padding: 12px;
-  font-size: 0.7rem;
+  font-size: 1rem;
   font-family: sans-serif;
   text-transform: uppercase;
   text-align: center;
@@ -13,6 +13,6 @@ export const Input = styled.input`
   outline: none;
   filter: invert(100%);
   &::placeholder{
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 `;
