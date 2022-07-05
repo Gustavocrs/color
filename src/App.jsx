@@ -16,7 +16,7 @@ function App() {
       <Shazam />
       <Input
         type="text"
-        placeholder="Digite uma cor"
+        placeholder="enter a color or hex"
         value={color ? color : ""}
         onChange={(e) => setColor(e.target.value)}
       />
