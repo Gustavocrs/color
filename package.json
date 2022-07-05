@@ -1,5 +1,6 @@
 {
   "name": "color",
+  "homepage": "https://gustavocrs.github.io/color",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
