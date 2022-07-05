@@ -13,10 +13,10 @@ function App() {
 
   return (
     <div style={styledBackground} className="App">
-      <Shazam text="Shazaaammm!!" />
+      <Shazam />
       <Input
         type="text"
-        placeholder="Enter a color or Hex"
+        placeholder="Digite uma cor"
         value={color ? color : ""}
         onChange={(e) => setColor(e.target.value)}
       />
